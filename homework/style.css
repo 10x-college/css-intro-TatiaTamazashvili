@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.site-header {
+    background-color:#F5F5F7;
+}
+
+.main-navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color:#5B47D1;
+    padding-left: 100px;
+    /* padding-right:  */
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+  
+}
+
+.nav-item a {
+    font-size: 24px;
+    color: black;
+    margin: 25px;
+    text-decoration: none;
+}
+
+.hero-section {
+    background-image: url(22.jpg);
+    background-size: 1500px 500px;
+    background-position: center;
+    text-align: center;
+    padding: 100px 200px
+}
+
+.hero-title {
+    font-size: 48px;
+    align-items: center;
+    color:#FFFFFF;
+;
+}
+
+.hero-description {
+    font-size: 20px;
+    color:#FFFFFF;
+    padding-top: 50px;
+}
+
+.site-main {
+    background-color:#F5F5F7;
+}
+
+.blog-section {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#F5F5F7;
+}
+
+.section-title {
+    font-size: 36px;
+    text-align: center;
+    padding: 30px;
+}
+
+.card-image-purple {
+    width: 360px;
+    height: 240px;
+    background-color: #C7B8FF;
+    margin-bottom: 10px;
+}
+
+.blog-card {
+    display: inline-block;
+    text-align: left;
+    background-color: #FFFFFF;
+    width: 360px;
+    height: 465px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    vertical-align: top;
+    justify-content: space-around;
+}
+
+.blogone {
+    font-size: 13px;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.blog-meta {
+    padding: 30px 30px 30px 30px;
+}
+
+
+a {
+    color: black;
+}
+
+.card-image-pink {
+    width: 360px;
+    height: 240px;
+    background-color:#FFB8D8;
+    margin-bottom: 10px;
+}
+
+.blog-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.card-image-blue {
+    width: 360px;
+    height: 240px;
+    background-color:#B8E0FF;
+    margin-bottom: 10px;
+}
+
+.card-image-green {
+    width: 360px;
+    height: 240px;
+    background-color:#D4FFB8;
+    margin-bottom: 10px;
+}
+
+.card-image-yellow {
+    width: 360px;
+    height: 240px;
+    background-color:#FFE4B8;
+    margin-bottom: 10px;
+}
+
+.card-image-orange {
+    width: 360px;
+    height: 240px;
+    background-color: #FFD4B8;
+    margin-bottom: 10px;
+}
+
+.blog-title {
+    text-align: left;
+    padding-left: 10px;
+}
+
+.blog-excerpt {
+    text-align: left;
+    padding-left: 10px;
+}
+
+.footer-about {
+    display: inline-block;
+    width: 296px;
+    height: 68px;
+    margin-right: 50px;
+    margin-bottom: 80px;
+    margin-top: 30px;
+    color: white;
+}
+
+.footer-navigation {
+    display: inline-block;
+}
+
+.footer-content {
+    width: 1240px;
+    height: 338px;
+    padding-left: 140px;
+    background-color:#252424;
+}
+
+.footer-title {
+    margin-bottom: 10px;
+}
+
+.footer-div {
+    color: white;
+}
+
+.footer-title {
+    color: white;
+}
+
+.footer-list p, a {
+    color: white;
+    text-decoration: none;
+}
+
+/*.footer-bottom {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    color: white;
+    background-color:#020202;
+    height: 55px;
+    width: 1920px;
+    align-items: center;
+}*/
+
+.site-footer {
+    background-color:  #252424;
+;
+}
+
+.footer-bottom {
+    text-align: center;
+    color: white;
+    background-color:#020202;
+    padding-top: 10px;
+    height: 55px;
+    align-items: center;
+}
